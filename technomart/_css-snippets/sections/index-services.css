@@ -8,3 +8,22 @@
 .services-nav-item {}
 .services-nav-item:hover {}
 .services-nav-item.active {}
+
+.services-main {}
+.services-article {
+	position: relative;
+
+	display: none;
+}
+.services-article.active {
+	display: block;
+}
+.services-article h3 {}
+.services-article p {}
+.services-article a {}
+
+/* фоновые картинки */
+.services-article:after {}
+.is-delivery:after {}
+.is-guarantee:after {}
+.is-credit:after {}
