@@ -1,0 +1,84 @@
+<div class="section  filter-section">
+	<div class="section-inner  filter-section-inner">
+		<from class="filter-form">
+			<fieldset class="filter-set  filter-by-basic">
+				<legend class="filter-set-title">Сортировка:</legend>
+				<select class="filter-combobox">
+					<option>По популярности</option>
+					<option>По новизне</option>
+					<option>По цене: сначала дорогие</option>
+					<option>По цене: сначала недорогие</option>
+				</select>
+			</fieldset>
+
+			<fieldset class="filter-set  filter-by-price">
+				<legend class="filter-set-title">Цена: <span>100 руб. – 500 руб.</span></legend>
+
+				<div class="range-wrapper"> 
+					<span class="range-line"></span> 
+					<span class="range-line-selected"></span> 
+					<span id="range-button-min" class="range-button"></span> 
+					<span id="range-button-max" class="range-button"></span> 
+				</div>
+
+				<label class="range-values-label min"><input type="text" class="range-values-field" value="100"></label> 
+				<label class="range-values-label max"><input type="text" class="range-values-field" value="500"></label> 
+			</fieldset>
+
+			<fieldset class="filter-set  filter-by-fatness">
+				<legend class="filter-set-title">Жирность:</legend>
+
+				<div class="filter-radio">
+					<input id="filter-fatness-item-1" type="radio" name="fatness">
+					<label for="filter-fatness-item-1" class="filter-radio-label">0%</label>
+				</div>
+
+				<div class="filter-radio">
+					<input id="filter-fatness-item-2" type="radio" name="fatness">
+					<label for="filter-fatness-item-2" class="filter-radio-label">до 10%</label>
+				</div>
+
+				<div class="filter-radio">
+					<input id="filter-fatness-item-3" type="radio" name="fatness">
+					<label for="filter-fatness-item-3" class="filter-radio-label">до 30% </label>
+				</div>
+
+				<div class="filter-radio">
+					<input id="filter-fatness-item-4" type="radio" name="fatness">
+					<label for="filter-fatness-item-4" class="filter-radio-label">выше 30%</label>
+				</div>
+			</fieldset>
+
+			<fieldset class="filter-set  filter-by-stuffing">
+				<legend class="filter-set-title">Наполнители:</legend>
+
+				<div class="filter-checkbox">
+					<input id="filter-stuffing-item-1" type="checkbox" name="stuffing">
+					<label for="filter-stuffing-item-1" class="filter-checkbox-label">шоколадные</label>
+				</div>
+
+				<div class="filter-checkbox">
+					<input id="filter-stuffing-item-2" type="checkbox" name="stuffing">
+					<label for="filter-stuffing-item-2" class="filter-checkbox-label">сахарные присыпки</label>
+				</div>
+
+				<div class="filter-checkbox">
+					<input id="filter-stuffing-item-3" type="checkbox" name="stuffing">
+					<label for="filter-stuffing-item-3" class="filter-checkbox-label">фрукты</label>
+				</div>
+
+				<div class="filter-checkbox">
+					<input id="filter-stuffing-item-4" type="checkbox" name="stuffing">
+					<label for="filter-stuffing-item-4" class="filter-checkbox-label">сиропы</label>
+				</div>
+
+				<div class="filter-checkbox">
+					<input id="filter-stuffing-item-5" type="checkbox" name="stuffing">
+					<label for="filter-stuffing-item-5" class="filter-checkbox-label">джемы</label>
+				</div>
+			</fieldset>
+
+			<input type="submit" class="filter-submit-button" value="Применить">
+		</from>
+	</div>
+</div>
