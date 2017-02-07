@@ -1,0 +1,22 @@
+/*
+	установка доминирующего шрифта
+	для всех страниц проекта
+*/
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #333;
+}
+
+/* 
+	Теперь для того, чтобы подключить шрифт "Roboto Regular", достаточно указать css-свойство:
+	font-weight: 400;
+
+	Теперь для того, чтобы подключить шрифт "Roboto Medium", достаточно указать css-свойство:
+	font-weight: 500;
+
+	Теперь для того, чтобы подключить шрифт "Roboto Bold", достаточно указать css-свойство:
+	font-weight: 700;
+*/
