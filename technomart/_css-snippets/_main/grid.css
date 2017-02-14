@@ -1,3 +1,14 @@
+.page {
+	width: 100%;
+	min-width: 940px;
+}
+.page-header {
+	background-color: #f1f5f7;
+}
+.page-content {}
+.page-footer {}
+
+
 .section {
 	display: block;
 	width: 100%;
@@ -16,5 +27,5 @@
 	box-sizing: border-box;
 }
 .section-inner:before,
-.section-inner:after { content: " "; display: table; }
+.section-inner:after { content: ''; display: table; }
 .section-inner:after { clear: both; }
