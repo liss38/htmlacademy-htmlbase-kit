@@ -1,0 +1,32 @@
+.page {
+	background-color: #849d8f;
+}
+
+.page-header {}
+.page-content {}
+.page-footer {}
+
+
+.section {
+	position: relative;
+
+	width: 100%;
+	min-width: 1200px;
+}
+
+.section-inner {
+	position: relative;
+
+	width: 1200px;
+	margin: 0 auto;
+
+	padding: 0 27px;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.section-inner:before,
+.section-inner:after { content: " "; display: table; }
+.section-inner:after { clear: both; }

@@ -1,0 +1,63 @@
+/*
+	Секция с промо-предложениями
+*/
+.promo-section {}
+.promo-section-inner {
+	padding-top: 60px;
+	font-size: 0;
+}
+
+.promo-item {
+	position: relative;
+
+	display: inline-block;
+	vertical-align: top;
+	width: 560px;
+	height: 229px;
+	overflow: hidden;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	padding: 20px;
+
+	border-radius: 15px;
+
+	color: #fff;
+}
+.promo-item:nth-child(2n) {
+	margin-left: 25px;
+}
+.promo-item-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.promo-item-title {
+	position: relative;
+	z-index: 5;
+
+	margin-top: 0;
+
+	font-size: 35px;
+	line-height: 41px;
+	font-weight: 700;
+}
+.promo-item-text {
+	position: relative;
+	z-index: 5;
+
+	height: 60px;
+	overflow: hidden;
+
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 700;
+}
+.promo-item-link {
+	position: relative;
+	z-index: 5;
+	float: right;
+}

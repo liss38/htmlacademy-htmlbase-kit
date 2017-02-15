@@ -1,0 +1,15 @@
+.hit-label:after {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	z-index: 999;
+
+	content: '';
+
+	display: block;
+	width: 61px;
+	height: 61px;
+
+	background: url('../img/icons__hit-label.jpg') no-repeat;
+	border-radius: 50%;
+}

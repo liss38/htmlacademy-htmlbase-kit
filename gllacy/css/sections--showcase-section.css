@@ -1,0 +1,9 @@
+.showcase-section {}
+.showcase-section-inner {
+	padding-top: 20px;
+	font-size: 0;
+}
+
+.showcase-section .catalog-item:nth-child(4n) {
+	margin-right: 0;
+}
